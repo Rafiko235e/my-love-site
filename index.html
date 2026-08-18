@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#efe0b7">
+  <title>A Little Place For Us ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <section class="intro" id="intro">
+    <div class="sun"></div>
+    <div class="mini-flower f1">✿</div><div class="mini-flower f2">✿</div>
+    <div class="intro-card">
+      <div class="tiny">A LITTLE PLACE FOR</div>
+      <div class="lock">♡</div>
+      <h1>you & me</h1>
+      <p>some memories deserve their own little corner of the internet.</p>
+      <button class="enter" id="enterBtn">open the story <span>↗</span></button>
+    </div>
+    <div class="scroll-note">scroll / tap to continue</div>
+  </section>
+
+  <section class="flower-scene">
+    <div class="petal p1"></div><div class="petal p2"></div><div class="petal p3"></div>
+    <div class="petal p4"></div><div class="petal p5"></div><div class="petal p6"></div>
+    <div class="flower-center">♡</div>
+    <p>it started with a little moment...</p>
+  </section>
+
+  <main id="story">
+    <section class="paper-page collage">
+      <div class="tape tape-a"></div>
+      <div class="polaroid photo-slot slot-one"><div>YOUR<br>PHOTO</div><small>replace me</small></div>
+      <div class="polaroid photo-slot slot-two"><div>YOUR<br>PHOTO</div><small>replace me</small></div>
+      <div class="scribble">little<br>moments<br>matter.</div>
+      <div class="paper-note">
+        <span>from: me</span>
+        <h2>For you</h2>
+        <p>Wishing you endless motivation to chase your dreams, the courage to overcome every challenge, and enough happiness to make every ordinary day feel special.</p>
+      </div>
+      <div class="sticker heart-sticker">♥</div>
+      <div class="sticker star-sticker">✦</div>
+    </section>
+
+    <section class="paper-page memory">
+      <div class="section-kicker">OUR LITTLE ARCHIVE</div>
+      <h2>Memories we keep</h2>
+      <p class="sub">three tiny places for three big feelings.</p>
+      <div class="memory-grid">
+        <article class="memory-card">
+          <div class="memory-image warm"><span>01</span></div>
+          <h3>that day</h3><p>Write a date, a place, or a tiny story here.</p>
+        </article>
+        <article class="memory-card">
+          <div class="memory-image rose"><span>02</span></div>
+          <h3>this smile</h3><p>A sentence you never want to forget.</p>
+        </article>
+        <article class="memory-card">
+          <div class="memory-image cream"><span>03</span></div>
+          <h3>always</h3><p>Something simple that means everything.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="paper-page map-page">
+      <div class="map-copy">
+        <div class="section-kicker">A PLACE TO REMEMBER</div>
+        <h2>Memory map</h2>
+        <p>Put your special place here. The pin is draggable on the visual map.</p>
+        <div class="map-buttons">
+          <button class="round" id="zoomOut">−</button>
+          <button class="round" id="zoomIn">+</button>
+        </div>
+      </div>
+      <div class="fake-map" id="map">
+        <div class="map-road r1"></div><div class="map-road r2"></div><div class="map-road r3"></div>
+        <div class="map-water"></div>
+        <div class="map-label l1">OUR PLACE</div><div class="map-label l2">MEMORY LANE</div>
+        <div class="pin" id="pin">♥<small>here</small></div>
+      </div>
+    </section>
+
+    <section class="paper-page media-page">
+      <div class="record"></div>
+      <div class="music-card">
+        <div class="album-art">♫</div>
+        <div class="track-info"><b>our little song</b><span>tap play • add your own MP3</span></div>
+        <button class="play" id="playMusic">▶</button>
+        <audio id="music" preload="metadata" src="assets/music.mp3"></audio>
+      </div>
+
+      <div class="voice-card">
+        <div class="voice-head"><span>♡</span><b>Voice note</b><small id="voiceTime">0:00</small></div>
+        <div class="wave" id="wave"></div>
+        <button id="voiceBtn">tap to listen</button>
+        <audio id="voice" preload="metadata" src="assets/voice.mp3"></audio>
+      </div>
+    </section>
+
+    <section class="paper-page letter-page">
+      <div class="paperclip">⌇</div>
+      <div class="letter">
+        <div class="section-kicker">A LETTER</div>
+        <h2>Dear you,</h2>
+        <p>Some people become part of a story without even realizing it. Then one day you look back and notice how many ordinary moments became your favorite memories.</p>
+        <p>So this little page is just a reminder: keep dreaming, keep laughing, keep being you.</p>
+        <p class="signature">with love,<br><strong>your name ♡</strong></p>
+      </div>
+      <div class="final-flower">✿</div>
+    </section>
+
+    <footer>made with a little bit of code & a lot of feeling ♡</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
